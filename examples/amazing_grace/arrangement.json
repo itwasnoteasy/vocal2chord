@@ -1,0 +1,1387 @@
+{
+ "schema_version": 1,
+ "meta": {
+  "tool": "vocal2chord",
+  "version": "0.1.0",
+  "source": "synthetic:amazing_grace",
+  "duration_s": 29.044,
+  "analysis_seconds": 0.24,
+  "notes": "Edit 'chords' (names) and 'strums' (gesture/time/dir/velocity), then run `render`. Strum chord names are re-derived from the chord timeline at render time."
+ },
+ "grid": {
+  "bpm": 100.0,
+  "beats_per_bar": 3,
+  "confidence": 0.77,
+  "source": "estimated",
+  "first_downbeat_s": -0.68,
+  "beat_times": [
+   -0.68,
+   -0.08,
+   0.52,
+   1.12,
+   1.72,
+   2.32,
+   2.92,
+   3.52,
+   4.12,
+   4.72,
+   5.32,
+   5.92,
+   6.52,
+   7.12,
+   7.72,
+   8.32,
+   8.92,
+   9.52,
+   10.12,
+   10.72,
+   11.32,
+   11.92,
+   12.52,
+   13.12,
+   13.72,
+   14.32,
+   14.92,
+   15.52,
+   16.12,
+   16.72,
+   17.32,
+   17.92,
+   18.52,
+   19.12,
+   19.72,
+   20.32,
+   20.92,
+   21.52,
+   22.12,
+   22.72,
+   23.32,
+   23.92,
+   24.52,
+   25.12,
+   25.72,
+   26.32,
+   26.92,
+   27.52,
+   28.12,
+   28.72,
+   29.32,
+   29.92,
+   30.52,
+   31.12
+  ]
+ },
+ "key": {
+  "name": "G",
+  "tonic": 7,
+  "mode": "major",
+  "score": 1.018,
+  "candidates": [
+   {
+    "name": "G",
+    "score": 1.018
+   },
+   {
+    "name": "D",
+    "score": 0.651
+   },
+   {
+    "name": "Bm",
+    "score": 0.645
+   }
+  ]
+ },
+ "phrases": [
+  {
+   "start": 0.49,
+   "end": 7.97
+  },
+  {
+   "start": 8.28,
+   "end": 13.97
+  },
+  {
+   "start": 14.29,
+   "end": 21.79
+  },
+  {
+   "start": 22.09,
+   "end": 28.06
+  }
+ ],
+ "melody": [
+  {
+   "onset": 0.49,
+   "offset": 1.1,
+   "midi": 74,
+   "pitch": 74.1566,
+   "rms": 0.2973
+  },
+  {
+   "onset": 1.1,
+   "offset": 2.28,
+   "midi": 67,
+   "pitch": 67.0957,
+   "rms": 0.3428
+  },
+  {
+   "onset": 2.34,
+   "offset": 2.6,
+   "midi": 71,
+   "pitch": 71.1374,
+   "rms": 0.0941
+  },
+  {
+   "onset": 2.63,
+   "offset": 2.9,
+   "midi": 67,
+   "pitch": 67.1514,
+   "rms": 0.3027
+  },
+  {
+   "onset": 2.93,
+   "offset": 4.08,
+   "midi": 71,
+   "pitch": 71.123,
+   "rms": 0.104
+  },
+  {
+   "onset": 4.14,
+   "offset": 4.7,
+   "midi": 69,
+   "pitch": 69.0925,
+   "rms": 0.1629
+  },
+  {
+   "onset": 4.74,
+   "offset": 5.92,
+   "midi": 67,
+   "pitch": 67.1138,
+   "rms": 0.3414
+  },
+  {
+   "onset": 5.96,
+   "offset": 6.52,
+   "midi": 76,
+   "pitch": 76.123,
+   "rms": 0.3275
+  },
+  {
+   "onset": 6.52,
+   "offset": 7.97,
+   "midi": 74,
+   "pitch": 74.1095,
+   "rms": 0.3332
+  },
+  {
+   "onset": 8.28,
+   "offset": 8.89,
+   "midi": 74,
+   "pitch": 74.1369,
+   "rms": 0.2973
+  },
+  {
+   "onset": 8.92,
+   "offset": 10.08,
+   "midi": 67,
+   "pitch": 67.1035,
+   "rms": 0.3475
+  },
+  {
+   "onset": 10.13,
+   "offset": 10.38,
+   "midi": 71,
+   "pitch": 71.1123,
+   "rms": 0.0967
+  },
+  {
+   "onset": 10.43,
+   "offset": 10.69,
+   "midi": 67,
+   "pitch": 67.1228,
+   "rms": 0.2976
+  },
+  {
+   "onset": 10.73,
+   "offset": 11.88,
+   "midi": 71,
+   "pitch": 71.1239,
+   "rms": 0.1043
+  },
+  {
+   "onset": 11.91,
+   "offset": 12.48,
+   "midi": 74,
+   "pitch": 74.0958,
+   "rms": 0.3271
+  },
+  {
+   "onset": 12.51,
+   "offset": 13.97,
+   "midi": 76,
+   "pitch": 76.088,
+   "rms": 0.3593
+  },
+  {
+   "onset": 14.29,
+   "offset": 14.89,
+   "midi": 76,
+   "pitch": 76.1308,
+   "rms": 0.3274
+  },
+  {
+   "onset": 14.92,
+   "offset": 16.08,
+   "midi": 74,
+   "pitch": 74.136,
+   "rms": 0.3426
+  },
+  {
+   "onset": 16.15,
+   "offset": 16.4,
+   "midi": 71,
+   "pitch": 71.1569,
+   "rms": 0.0951
+  },
+  {
+   "onset": 16.44,
+   "offset": 16.71,
+   "midi": 67,
+   "pitch": 67.1549,
+   "rms": 0.3032
+  },
+  {
+   "onset": 16.74,
+   "offset": 17.88,
+   "midi": 71,
+   "pitch": 71.129,
+   "rms": 0.1047
+  },
+  {
+   "onset": 17.95,
+   "offset": 18.49,
+   "midi": 69,
+   "pitch": 69.0737,
+   "rms": 0.1678
+  },
+  {
+   "onset": 18.52,
+   "offset": 19.68,
+   "midi": 67,
+   "pitch": 67.1229,
+   "rms": 0.3471
+  },
+  {
+   "onset": 19.75,
+   "offset": 20.3,
+   "midi": 76,
+   "pitch": 76.1154,
+   "rms": 0.3325
+  },
+  {
+   "onset": 20.34,
+   "offset": 21.79,
+   "midi": 74,
+   "pitch": 74.1175,
+   "rms": 0.3328
+  },
+  {
+   "onset": 22.09,
+   "offset": 22.7,
+   "midi": 74,
+   "pitch": 74.1472,
+   "rms": 0.2973
+  },
+  {
+   "onset": 22.7,
+   "offset": 23.88,
+   "midi": 67,
+   "pitch": 67.0966,
+   "rms": 0.3429
+  },
+  {
+   "onset": 23.92,
+   "offset": 24.19,
+   "midi": 71,
+   "pitch": 71.1185,
+   "rms": 0.0916
+  },
+  {
+   "onset": 24.22,
+   "offset": 24.5,
+   "midi": 67,
+   "pitch": 67.1441,
+   "rms": 0.2948
+  },
+  {
+   "onset": 24.53,
+   "offset": 25.68,
+   "midi": 71,
+   "pitch": 71.1157,
+   "rms": 0.1044
+  },
+  {
+   "onset": 25.71,
+   "offset": 26.29,
+   "midi": 69,
+   "pitch": 69.1019,
+   "rms": 0.1587
+  },
+  {
+   "onset": 26.32,
+   "offset": 28.06,
+   "midi": 67,
+   "pitch": 67.1154,
+   "rms": 0.3539
+  }
+ ],
+ "bar_levels": [
+  1,
+  2,
+  2,
+  2,
+  1,
+  1,
+  2,
+  0,
+  2,
+  3,
+  2,
+  2,
+  2,
+  3,
+  2,
+  0
+ ],
+ "chords": [
+  {
+   "start": -0.68,
+   "end": 4.72,
+   "bar": 1,
+   "beat_in_bar": 1,
+   "chord": "Gadd9",
+   "function": "I",
+   "confidence": 1.0,
+   "melody_coverage": 1.0,
+   "voicing": {
+    "frets": [
+     null,
+     10,
+     12,
+     14,
+     12,
+     10
+    ],
+    "difficulty": 2.5
+   },
+   "alternatives": [
+    {
+     "chord": "G",
+     "kind": "colour",
+     "delta": 0.0,
+     "function": "I",
+     "reason": "plain triad"
+    },
+    {
+     "chord": "Gmaj7",
+     "kind": "colour",
+     "delta": -0.27,
+     "function": "I",
+     "reason": "adds F#; colour only"
+    },
+    {
+     "chord": "Em",
+     "kind": "substitute",
+     "delta": -7.56,
+     "function": "vi",
+     "reason": "covers 61% of melody weight (chosen 81%)"
+    },
+    {
+     "chord": "D",
+     "kind": "substitute",
+     "delta": -8.65,
+     "function": "V",
+     "reason": "covers 39% of melody weight (chosen 81%)"
+    }
+   ]
+  },
+  {
+   "start": 4.72,
+   "end": 6.52,
+   "bar": 4,
+   "beat_in_bar": 1,
+   "chord": "C",
+   "function": "IV",
+   "confidence": 0.55,
+   "melody_coverage": 1.0,
+   "voicing": {
+    "frets": [
+     null,
+     3,
+     2,
+     0,
+     1,
+     0
+    ],
+    "difficulty": 0.0
+   },
+   "alternatives": [
+    {
+     "chord": "Cadd9",
+     "kind": "colour",
+     "delta": -0.25,
+     "function": "IV",
+     "reason": "adds D; colour only"
+    },
+    {
+     "chord": "Cmaj7",
+     "kind": "colour",
+     "delta": -0.27,
+     "function": "IV",
+     "reason": "adds B; colour only"
+    },
+    {
+     "chord": "Em",
+     "kind": "substitute",
+     "delta": -0.6,
+     "function": "vi",
+     "reason": "covers 100% of melody weight (chosen 100%)"
+    },
+    {
+     "chord": "G",
+     "kind": "substitute",
+     "delta": -1.34,
+     "function": "I",
+     "reason": "covers 68% of melody weight (chosen 100%)"
+    }
+   ]
+  },
+  {
+   "start": 6.52,
+   "end": 11.92,
+   "bar": 5,
+   "beat_in_bar": 1,
+   "chord": "G",
+   "function": "I",
+   "confidence": 1.0,
+   "melody_coverage": 1.0,
+   "voicing": {
+    "frets": [
+     3,
+     2,
+     0,
+     0,
+     0,
+     3
+    ],
+    "difficulty": 0.0
+   },
+   "alternatives": [
+    {
+     "chord": "Gadd9",
+     "kind": "colour",
+     "delta": -0.25,
+     "function": "I",
+     "reason": "adds A; colour only"
+    },
+    {
+     "chord": "Gmaj7",
+     "kind": "colour",
+     "delta": -0.27,
+     "function": "I",
+     "reason": "adds F#; colour only"
+    },
+    {
+     "chord": "Em",
+     "kind": "substitute",
+     "delta": -9.27,
+     "function": "vi",
+     "reason": "covers 57% of melody weight (chosen 100%)"
+    },
+    {
+     "chord": "D",
+     "kind": "substitute",
+     "delta": -11.03,
+     "function": "V",
+     "reason": "covers 43% of melody weight (chosen 100%)"
+    }
+   ]
+  },
+  {
+   "start": 11.92,
+   "end": 13.72,
+   "bar": 8,
+   "beat_in_bar": 1,
+   "chord": "Cadd9",
+   "function": "IV",
+   "confidence": 0.54,
+   "melody_coverage": 1.0,
+   "voicing": {
+    "frets": [
+     null,
+     3,
+     2,
+     0,
+     3,
+     0
+    ],
+    "difficulty": 0.0
+   },
+   "alternatives": [
+    {
+     "chord": "C",
+     "kind": "colour",
+     "delta": 0.0,
+     "function": "IV",
+     "reason": "plain triad"
+    },
+    {
+     "chord": "Cmaj7",
+     "kind": "colour",
+     "delta": -0.27,
+     "function": "IV",
+     "reason": "adds B; colour only"
+    },
+    {
+     "chord": "Em",
+     "kind": "substitute",
+     "delta": -0.6,
+     "function": "vi",
+     "reason": "covers 79% of melody weight (chosen 79%)"
+    },
+    {
+     "chord": "Am",
+     "kind": "substitute",
+     "delta": -1.2,
+     "function": "ii",
+     "reason": "covers 79% of melody weight (chosen 79%)"
+    }
+   ]
+  },
+  {
+   "start": 13.72,
+   "end": 19.12,
+   "bar": 9,
+   "beat_in_bar": 1,
+   "chord": "Gadd9",
+   "function": "I",
+   "confidence": 0.99,
+   "melody_coverage": 0.87,
+   "voicing": {
+    "frets": [
+     null,
+     10,
+     12,
+     14,
+     12,
+     10
+    ],
+    "difficulty": 2.5
+   },
+   "alternatives": [
+    {
+     "chord": "G",
+     "kind": "colour",
+     "delta": 0.0,
+     "function": "I",
+     "reason": "plain triad"
+    },
+    {
+     "chord": "Gmaj7",
+     "kind": "colour",
+     "delta": -0.27,
+     "function": "I",
+     "reason": "adds F#; colour only"
+    },
+    {
+     "chord": "Em",
+     "kind": "substitute",
+     "delta": -5.26,
+     "function": "vi",
+     "reason": "covers 64% of melody weight (chosen 78%)"
+    },
+    {
+     "chord": "C",
+     "kind": "substitute",
+     "delta": -7.93,
+     "function": "IV",
+     "reason": "covers 36% of melody weight (chosen 78%)"
+    }
+   ]
+  },
+  {
+   "start": 19.12,
+   "end": 20.92,
+   "bar": 12,
+   "beat_in_bar": 1,
+   "chord": "Cadd9",
+   "function": "IV",
+   "confidence": 0.51,
+   "melody_coverage": 1.0,
+   "voicing": {
+    "frets": [
+     null,
+     3,
+     2,
+     0,
+     3,
+     0
+    ],
+    "difficulty": 0.0
+   },
+   "alternatives": [
+    {
+     "chord": "C",
+     "kind": "colour",
+     "delta": 0.0,
+     "function": "IV",
+     "reason": "plain triad"
+    },
+    {
+     "chord": "Cmaj7",
+     "kind": "colour",
+     "delta": -0.27,
+     "function": "IV",
+     "reason": "adds B; colour only"
+    },
+    {
+     "chord": "Em",
+     "kind": "substitute",
+     "delta": -0.6,
+     "function": "vi",
+     "reason": "covers 74% of melody weight (chosen 74%)"
+    },
+    {
+     "chord": "G",
+     "kind": "substitute",
+     "delta": -0.9,
+     "function": "I",
+     "reason": "covers 50% of melody weight (chosen 74%)"
+    }
+   ]
+  },
+  {
+   "start": 20.92,
+   "end": 28.12,
+   "bar": 13,
+   "beat_in_bar": 1,
+   "chord": "Gadd9",
+   "function": "I",
+   "confidence": 1.0,
+   "melody_coverage": 1.0,
+   "voicing": {
+    "frets": [
+     null,
+     10,
+     12,
+     14,
+     12,
+     10
+    ],
+    "difficulty": 2.5
+   },
+   "alternatives": [
+    {
+     "chord": "G",
+     "kind": "colour",
+     "delta": 0.0,
+     "function": "I",
+     "reason": "plain triad"
+    },
+    {
+     "chord": "Gmaj7",
+     "kind": "colour",
+     "delta": -0.27,
+     "function": "I",
+     "reason": "adds F#; colour only"
+    },
+    {
+     "chord": "Em",
+     "kind": "substitute",
+     "delta": -11.3,
+     "function": "vi",
+     "reason": "covers 63% of melody weight (chosen 87%)"
+    },
+    {
+     "chord": "C",
+     "kind": "substitute",
+     "delta": -14.14,
+     "function": "IV",
+     "reason": "covers 37% of melody weight (chosen 87%)"
+    }
+   ]
+  }
+ ],
+ "strums": [
+  {
+   "beat": 1.5,
+   "gesture": "sparse",
+   "chord": "Gadd9",
+   "dir": "down",
+   "velocity": 64,
+   "spread_ms": 14,
+   "time": 0.22,
+   "bar": 1,
+   "beat_in_bar": 2.5,
+   "id": 0
+  },
+  {
+   "beat": 3.0,
+   "gesture": "strum",
+   "chord": "Gadd9",
+   "dir": "down",
+   "velocity": 94,
+   "spread_ms": 14,
+   "time": 1.12,
+   "bar": 2,
+   "beat_in_bar": 1.0,
+   "id": 1
+  },
+  {
+   "beat": 4.0,
+   "gesture": "strum",
+   "chord": "Gadd9",
+   "dir": "down",
+   "velocity": 90,
+   "spread_ms": 14,
+   "time": 1.72,
+   "bar": 2,
+   "beat_in_bar": 2.0,
+   "id": 2
+  },
+  {
+   "beat": 4.5,
+   "gesture": "strum",
+   "chord": "Gadd9",
+   "dir": "up",
+   "velocity": 78,
+   "spread_ms": 10,
+   "time": 2.02,
+   "bar": 2,
+   "beat_in_bar": 2.5,
+   "id": 3
+  },
+  {
+   "beat": 5.0,
+   "gesture": "strum",
+   "chord": "Gadd9",
+   "dir": "down",
+   "velocity": 90,
+   "spread_ms": 14,
+   "time": 2.32,
+   "bar": 2,
+   "beat_in_bar": 3.0,
+   "id": 4
+  },
+  {
+   "beat": 6.0,
+   "gesture": "strum",
+   "chord": "Gadd9",
+   "dir": "down",
+   "velocity": 94,
+   "spread_ms": 14,
+   "time": 2.92,
+   "bar": 3,
+   "beat_in_bar": 1.0,
+   "id": 5
+  },
+  {
+   "beat": 7.0,
+   "gesture": "strum",
+   "chord": "Gadd9",
+   "dir": "down",
+   "velocity": 90,
+   "spread_ms": 14,
+   "time": 3.52,
+   "bar": 3,
+   "beat_in_bar": 2.0,
+   "id": 6
+  },
+  {
+   "beat": 7.5,
+   "gesture": "strum",
+   "chord": "Gadd9",
+   "dir": "up",
+   "velocity": 78,
+   "spread_ms": 10,
+   "time": 3.82,
+   "bar": 3,
+   "beat_in_bar": 2.5,
+   "id": 7
+  },
+  {
+   "beat": 8.0,
+   "gesture": "strum",
+   "chord": "Gadd9",
+   "dir": "down",
+   "velocity": 90,
+   "spread_ms": 14,
+   "time": 4.12,
+   "bar": 3,
+   "beat_in_bar": 3.0,
+   "id": 8
+  },
+  {
+   "beat": 9.0,
+   "gesture": "strum",
+   "chord": "C",
+   "dir": "down",
+   "velocity": 94,
+   "spread_ms": 14,
+   "time": 4.72,
+   "bar": 4,
+   "beat_in_bar": 1.0,
+   "id": 9
+  },
+  {
+   "beat": 10.0,
+   "gesture": "strum",
+   "chord": "C",
+   "dir": "down",
+   "velocity": 90,
+   "spread_ms": 14,
+   "time": 5.32,
+   "bar": 4,
+   "beat_in_bar": 2.0,
+   "id": 10
+  },
+  {
+   "beat": 10.5,
+   "gesture": "strum",
+   "chord": "C",
+   "dir": "up",
+   "velocity": 78,
+   "spread_ms": 10,
+   "time": 5.62,
+   "bar": 4,
+   "beat_in_bar": 2.5,
+   "id": 11
+  },
+  {
+   "beat": 11.0,
+   "gesture": "strum",
+   "chord": "C",
+   "dir": "down",
+   "velocity": 90,
+   "spread_ms": 14,
+   "time": 5.92,
+   "bar": 4,
+   "beat_in_bar": 3.0,
+   "id": 12
+  },
+  {
+   "beat": 11.5,
+   "gesture": "pickup",
+   "chord": "G",
+   "dir": "down",
+   "velocity": 72,
+   "time": 6.22,
+   "bar": 4,
+   "beat_in_bar": 3.5,
+   "id": 13
+  },
+  {
+   "beat": 12.0,
+   "gesture": "sparse",
+   "chord": "G",
+   "dir": "down",
+   "velocity": 80,
+   "spread_ms": 14,
+   "time": 6.52,
+   "bar": 5,
+   "beat_in_bar": 1.0,
+   "id": 14
+  },
+  {
+   "beat": 13.5,
+   "gesture": "sparse",
+   "chord": "G",
+   "dir": "down",
+   "velocity": 64,
+   "spread_ms": 14,
+   "time": 7.42,
+   "bar": 5,
+   "beat_in_bar": 2.5,
+   "id": 15
+  },
+  {
+   "beat": 15.0,
+   "gesture": "sparse",
+   "chord": "G",
+   "dir": "down",
+   "velocity": 80,
+   "spread_ms": 14,
+   "time": 8.32,
+   "bar": 6,
+   "beat_in_bar": 1.0,
+   "id": 16
+  },
+  {
+   "beat": 16.5,
+   "gesture": "sparse",
+   "chord": "G",
+   "dir": "down",
+   "velocity": 64,
+   "spread_ms": 14,
+   "time": 9.22,
+   "bar": 6,
+   "beat_in_bar": 2.5,
+   "id": 17
+  },
+  {
+   "beat": 18.0,
+   "gesture": "strum",
+   "chord": "G",
+   "dir": "down",
+   "velocity": 94,
+   "spread_ms": 14,
+   "time": 10.12,
+   "bar": 7,
+   "beat_in_bar": 1.0,
+   "id": 18
+  },
+  {
+   "beat": 19.0,
+   "gesture": "strum",
+   "chord": "G",
+   "dir": "down",
+   "velocity": 90,
+   "spread_ms": 14,
+   "time": 10.72,
+   "bar": 7,
+   "beat_in_bar": 2.0,
+   "id": 19
+  },
+  {
+   "beat": 19.5,
+   "gesture": "strum",
+   "chord": "G",
+   "dir": "up",
+   "velocity": 78,
+   "spread_ms": 10,
+   "time": 11.02,
+   "bar": 7,
+   "beat_in_bar": 2.5,
+   "id": 20
+  },
+  {
+   "beat": 20.0,
+   "gesture": "strum",
+   "chord": "G",
+   "dir": "down",
+   "velocity": 90,
+   "spread_ms": 14,
+   "time": 11.32,
+   "bar": 7,
+   "beat_in_bar": 3.0,
+   "id": 21
+  },
+  {
+   "beat": 21.0,
+   "gesture": "hold",
+   "chord": "Cadd9",
+   "dir": "down",
+   "velocity": 66,
+   "spread_ms": 14,
+   "time": 11.92,
+   "bar": 8,
+   "beat_in_bar": 1.0,
+   "id": 22
+  },
+  {
+   "beat": 23.5,
+   "gesture": "pickup",
+   "chord": "Gadd9",
+   "dir": "down",
+   "velocity": 58,
+   "time": 13.42,
+   "bar": 8,
+   "beat_in_bar": 3.5,
+   "id": 23
+  },
+  {
+   "beat": 24.0,
+   "gesture": "strum",
+   "chord": "Gadd9",
+   "dir": "down",
+   "velocity": 94,
+   "spread_ms": 14,
+   "time": 13.72,
+   "bar": 9,
+   "beat_in_bar": 1.0,
+   "id": 24
+  },
+  {
+   "beat": 25.0,
+   "gesture": "strum",
+   "chord": "Gadd9",
+   "dir": "down",
+   "velocity": 90,
+   "spread_ms": 14,
+   "time": 14.32,
+   "bar": 9,
+   "beat_in_bar": 2.0,
+   "id": 25
+  },
+  {
+   "beat": 25.5,
+   "gesture": "strum",
+   "chord": "Gadd9",
+   "dir": "up",
+   "velocity": 78,
+   "spread_ms": 10,
+   "time": 14.62,
+   "bar": 9,
+   "beat_in_bar": 2.5,
+   "id": 26
+  },
+  {
+   "beat": 26.0,
+   "gesture": "strum",
+   "chord": "Gadd9",
+   "dir": "down",
+   "velocity": 90,
+   "spread_ms": 14,
+   "time": 14.92,
+   "bar": 9,
+   "beat_in_bar": 3.0,
+   "id": 27
+  },
+  {
+   "beat": 27.0,
+   "gesture": "strum",
+   "chord": "Gadd9",
+   "dir": "down",
+   "velocity": 108,
+   "spread_ms": 14,
+   "time": 15.52,
+   "bar": 10,
+   "beat_in_bar": 1.0,
+   "id": 28
+  },
+  {
+   "beat": 28.0,
+   "gesture": "strum",
+   "chord": "Gadd9",
+   "dir": "down",
+   "velocity": 104,
+   "spread_ms": 14,
+   "time": 16.12,
+   "bar": 10,
+   "beat_in_bar": 2.0,
+   "id": 29
+  },
+  {
+   "beat": 28.5,
+   "gesture": "strum",
+   "chord": "Gadd9",
+   "dir": "up",
+   "velocity": 92,
+   "spread_ms": 10,
+   "time": 16.42,
+   "bar": 10,
+   "beat_in_bar": 2.5,
+   "id": 30
+  },
+  {
+   "beat": 29.0,
+   "gesture": "strum",
+   "chord": "Gadd9",
+   "dir": "down",
+   "velocity": 104,
+   "spread_ms": 14,
+   "time": 16.72,
+   "bar": 10,
+   "beat_in_bar": 3.0,
+   "id": 31
+  },
+  {
+   "beat": 29.5,
+   "gesture": "strum",
+   "chord": "Gadd9",
+   "dir": "up",
+   "velocity": 92,
+   "spread_ms": 10,
+   "time": 17.02,
+   "bar": 10,
+   "beat_in_bar": 3.5,
+   "id": 32
+  },
+  {
+   "beat": 30.0,
+   "gesture": "strum",
+   "chord": "Gadd9",
+   "dir": "down",
+   "velocity": 94,
+   "spread_ms": 14,
+   "time": 17.32,
+   "bar": 11,
+   "beat_in_bar": 1.0,
+   "id": 33
+  },
+  {
+   "beat": 31.0,
+   "gesture": "strum",
+   "chord": "Gadd9",
+   "dir": "down",
+   "velocity": 90,
+   "spread_ms": 14,
+   "time": 17.92,
+   "bar": 11,
+   "beat_in_bar": 2.0,
+   "id": 34
+  },
+  {
+   "beat": 31.5,
+   "gesture": "strum",
+   "chord": "Gadd9",
+   "dir": "up",
+   "velocity": 78,
+   "spread_ms": 10,
+   "time": 18.22,
+   "bar": 11,
+   "beat_in_bar": 2.5,
+   "id": 35
+  },
+  {
+   "beat": 32.0,
+   "gesture": "strum",
+   "chord": "Gadd9",
+   "dir": "down",
+   "velocity": 90,
+   "spread_ms": 14,
+   "time": 18.52,
+   "bar": 11,
+   "beat_in_bar": 3.0,
+   "id": 36
+  },
+  {
+   "beat": 33.0,
+   "gesture": "strum",
+   "chord": "Cadd9",
+   "dir": "down",
+   "velocity": 94,
+   "spread_ms": 14,
+   "time": 19.12,
+   "bar": 12,
+   "beat_in_bar": 1.0,
+   "id": 37
+  },
+  {
+   "beat": 34.0,
+   "gesture": "strum",
+   "chord": "Cadd9",
+   "dir": "down",
+   "velocity": 90,
+   "spread_ms": 14,
+   "time": 19.72,
+   "bar": 12,
+   "beat_in_bar": 2.0,
+   "id": 38
+  },
+  {
+   "beat": 34.5,
+   "gesture": "strum",
+   "chord": "Cadd9",
+   "dir": "up",
+   "velocity": 78,
+   "spread_ms": 10,
+   "time": 20.02,
+   "bar": 12,
+   "beat_in_bar": 2.5,
+   "id": 39
+  },
+  {
+   "beat": 35.0,
+   "gesture": "strum",
+   "chord": "Cadd9",
+   "dir": "down",
+   "velocity": 90,
+   "spread_ms": 14,
+   "time": 20.32,
+   "bar": 12,
+   "beat_in_bar": 3.0,
+   "id": 40
+  },
+  {
+   "beat": 35.5,
+   "gesture": "pickup",
+   "chord": "Gadd9",
+   "dir": "down",
+   "velocity": 72,
+   "time": 20.62,
+   "bar": 12,
+   "beat_in_bar": 3.5,
+   "id": 41
+  },
+  {
+   "beat": 36.0,
+   "gesture": "strum",
+   "chord": "Gadd9",
+   "dir": "down",
+   "velocity": 94,
+   "spread_ms": 14,
+   "time": 20.92,
+   "bar": 13,
+   "beat_in_bar": 1.0,
+   "id": 42
+  },
+  {
+   "beat": 37.0,
+   "gesture": "strum",
+   "chord": "Gadd9",
+   "dir": "down",
+   "velocity": 90,
+   "spread_ms": 14,
+   "time": 21.52,
+   "bar": 13,
+   "beat_in_bar": 2.0,
+   "id": 43
+  },
+  {
+   "beat": 37.5,
+   "gesture": "strum",
+   "chord": "Gadd9",
+   "dir": "up",
+   "velocity": 78,
+   "spread_ms": 10,
+   "time": 21.82,
+   "bar": 13,
+   "beat_in_bar": 2.5,
+   "id": 44
+  },
+  {
+   "beat": 38.0,
+   "gesture": "strum",
+   "chord": "Gadd9",
+   "dir": "down",
+   "velocity": 90,
+   "spread_ms": 14,
+   "time": 22.12,
+   "bar": 13,
+   "beat_in_bar": 3.0,
+   "id": 45
+  },
+  {
+   "beat": 39.0,
+   "gesture": "strum",
+   "chord": "Gadd9",
+   "dir": "down",
+   "velocity": 108,
+   "spread_ms": 14,
+   "time": 22.72,
+   "bar": 14,
+   "beat_in_bar": 1.0,
+   "id": 46
+  },
+  {
+   "beat": 40.0,
+   "gesture": "strum",
+   "chord": "Gadd9",
+   "dir": "down",
+   "velocity": 104,
+   "spread_ms": 14,
+   "time": 23.32,
+   "bar": 14,
+   "beat_in_bar": 2.0,
+   "id": 47
+  },
+  {
+   "beat": 40.5,
+   "gesture": "strum",
+   "chord": "Gadd9",
+   "dir": "up",
+   "velocity": 92,
+   "spread_ms": 10,
+   "time": 23.62,
+   "bar": 14,
+   "beat_in_bar": 2.5,
+   "id": 48
+  },
+  {
+   "beat": 41.0,
+   "gesture": "strum",
+   "chord": "Gadd9",
+   "dir": "down",
+   "velocity": 104,
+   "spread_ms": 14,
+   "time": 23.92,
+   "bar": 14,
+   "beat_in_bar": 3.0,
+   "id": 49
+  },
+  {
+   "beat": 41.5,
+   "gesture": "strum",
+   "chord": "Gadd9",
+   "dir": "up",
+   "velocity": 92,
+   "spread_ms": 10,
+   "time": 24.22,
+   "bar": 14,
+   "beat_in_bar": 3.5,
+   "id": 50
+  },
+  {
+   "beat": 42.0,
+   "gesture": "strum",
+   "chord": "Gadd9",
+   "dir": "down",
+   "velocity": 94,
+   "spread_ms": 14,
+   "time": 24.52,
+   "bar": 15,
+   "beat_in_bar": 1.0,
+   "id": 51
+  },
+  {
+   "beat": 43.0,
+   "gesture": "strum",
+   "chord": "Gadd9",
+   "dir": "down",
+   "velocity": 90,
+   "spread_ms": 14,
+   "time": 25.12,
+   "bar": 15,
+   "beat_in_bar": 2.0,
+   "id": 52
+  },
+  {
+   "beat": 43.5,
+   "gesture": "strum",
+   "chord": "Gadd9",
+   "dir": "up",
+   "velocity": 78,
+   "spread_ms": 10,
+   "time": 25.42,
+   "bar": 15,
+   "beat_in_bar": 2.5,
+   "id": 53
+  },
+  {
+   "beat": 44.0,
+   "gesture": "strum",
+   "chord": "Gadd9",
+   "dir": "down",
+   "velocity": 90,
+   "spread_ms": 14,
+   "time": 25.72,
+   "bar": 15,
+   "beat_in_bar": 3.0,
+   "id": 54
+  },
+  {
+   "beat": 45.0,
+   "gesture": "ending",
+   "chord": "Gadd9",
+   "dir": "down",
+   "velocity": 104,
+   "spread_ms": 45,
+   "ring_beats": 3.0,
+   "time": 26.32,
+   "bar": 16,
+   "beat_in_bar": 1.0,
+   "id": 55
+  }
+ ]
+}

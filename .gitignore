@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+out/
+out_edited/
+demo_out/
+.pytest_cache/
+*.egg-info/
+samples/owner/*
+!samples/owner/README.md

@@ -1,0 +1,15 @@
+[project]
+name = "vocal2chord"
+version = "0.1.0"
+description = "Harmonize a solo vocal and arrange rhythm guitar (chords + strumming) for it"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.26", "scipy>=1.11", "soundfile>=0.12", "mido>=1.3"]
+
+[project.scripts]
+vocal2chord = "vocal2chord.cli:main"
+
+[tool.setuptools]
+packages = ["vocal2chord"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

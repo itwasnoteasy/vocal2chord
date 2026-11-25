@@ -1,0 +1,13 @@
+Key: G   Tempo: 100.0 bpm (estimated, grid confidence 0.77)   3/4
+Key candidates: G (1.018), D (0.651), Bm (0.645)
+
+bar   1 beat 1    Gadd9   I     conf 1.00  alts: G [colour, d=+0.0]; Gmaj7 [colour, d=-0.3]; Em [substitute, d=-7.6]
+bar   4 beat 1    C       IV    conf 0.55  alts: Cadd9 [colour, d=-0.2]; Cmaj7 [colour, d=-0.3]; Em [substitute, d=-0.6]
+bar   5 beat 1    G       I     conf 1.00  alts: Gadd9 [colour, d=-0.2]; Gmaj7 [colour, d=-0.3]; Em [substitute, d=-9.3]
+bar   8 beat 1    Cadd9   IV    conf 0.54  alts: C [colour, d=+0.0]; Cmaj7 [colour, d=-0.3]; Em [substitute, d=-0.6]
+bar   9 beat 1    Gadd9   I     conf 0.99  alts: G [colour, d=+0.0]; Gmaj7 [colour, d=-0.3]; Em [substitute, d=-5.3]
+bar  12 beat 1    Cadd9   IV    conf 0.51  alts: C [colour, d=+0.0]; Cmaj7 [colour, d=-0.3]; Em [substitute, d=-0.6]
+bar  13 beat 1    Gadd9   I     conf 1.00  alts: G [colour, d=+0.0]; Gmaj7 [colour, d=-0.3]; Em [substitute, d=-11.3]
+
+Gestures used: ending=1, hold=1, pickup=3, sparse=5, strum=46
+Bar intensity (0-3): 1 2 2 2 1 1 2 0 2 3 2 2 2 3 2 0
