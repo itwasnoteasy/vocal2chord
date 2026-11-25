@@ -41,5 +41,10 @@ YIN pitch → notes/phrases → beat/downbeat from onset comb (or your markers) 
 per-bar intensity from vocal energy/density + phrase shape → gesture patterns with chord-change attacks, breath stops, pickups, ending →
 Karplus-Strong render. Rationale: `docs/decisions/0001-numpy-first-mvp.md`.
 
+## What needs to be done (short version)
+1. **You:** put a few dry solo-vocal recordings in `samples/owner/` (see `samples/owner/README.md`), run `arrange`, and report using `docs/EVALUATION.md`. This is the main blocker — the pipeline has only been validated on synthetic voices.
+2. **Next engineering:** fix real-voice failures found above, add a licensed real-voice eval dataset, phrase-repetition-aware harmony, rubato/tempo changes, better guitar sound. Full list: `PROJECT_STATUS.md`.
+3. **How the project got here / what we tried:** `docs/PROJECT_HISTORY.md` (running log; updated with every meaningful commit).
+
 ## Status, limits, evaluation
 See `PROJECT_STATUS.md` (read the limitations!), `docs/EVALUATION.md` (how to test & report), `eval/run_eval.py`, `docs/DATA_SOURCES.md`.
